@@ -91,11 +91,11 @@ python3 main.py example.anny
 4. **Crear Comandos ANTLR**  
    En `C:\Windows\System32`, crear:  
    - **antlr4.bat**:  
-    
+     ```batch
      java -jar C:\Javalib\antlr-4.9.2-complete.jar %*
      ```  
    - **grun.bat**:  
-
+     ```batch
      java org.antlr.v4.gui.TestRig %*
      ```  
    ![Paso 5](./images/quinta.png)
