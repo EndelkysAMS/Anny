@@ -111,4 +111,4 @@ python3 main.py example.anny
 
 6. **Generar Parser y Ejecutar Proyecto**
 antlr4 -Dlanguage=Python3 -listener Anny.g  
-python main.py ejemplo.anny
+python test.py ejemplo.anny
