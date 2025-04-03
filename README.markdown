@@ -94,11 +94,11 @@ python3 main.py example.anny
 4. **Crear Comandos ANTLR**  
    En `C:\Windows\System32`, crear:  
    - **antlr4.bat**:  
-    
+     ```batch
      java -jar C:\Javalib\antlr-4.9.2-complete.jar %*
      ```  
    - **grun.bat**:  
-
+     ```batch
      java org.antlr.v4.gui.TestRig %*
      ```  
    ![Paso 5](./images/quinta.png)
@@ -111,4 +111,4 @@ python3 main.py example.anny
 
 6. **Generar Parser y Ejecutar Proyecto**
 antlr4 -Dlanguage=Python3 -listener Anny.g  
-python test.py ejemplo.anny
+python main.py ejemplo.anny
