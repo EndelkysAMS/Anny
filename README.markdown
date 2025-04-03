@@ -44,9 +44,12 @@ Se recomienda trabajar en un etorno virtual
 python3 -m venv venv
 source venv/bin/activate 
 
-### Instalar el runtime de ANTLR para Python:
 
+### Instalar el runtime de ANTLR para Python:
 pip install antlr4-python3-runtime==4.9.2 
+
+### Instalar PyQt6 para la interfaz gráfica
+pip install PyQt6   
 
 
 ## Ejecutar el Proyecto
@@ -108,4 +111,4 @@ python3 main.py example.anny
 
 6. **Generar Parser y Ejecutar Proyecto**
 antlr4 -Dlanguage=Python3 -listener Anny.g  
-python main.py ejemplo.anny
+python test.py ejemplo.anny
